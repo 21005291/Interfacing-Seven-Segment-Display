@@ -57,10 +57,59 @@ The LED segments are selected based on the decimal number. For example, if we wa
 ![image](https://user-images.githubusercontent.com/71547910/235332841-7159e75f-b403-43ff-bf96-8ef54ad0310a.png)
 
 ## PROGRAM:
+void setup()
+
+{
+
+pinMode(13, OUTPUT); // A segment
+
+pinMode(12, OUTPUT); // B segment
+
+pinMode(11, OUTPUT); // C segment
+
+pinMode(10, OUTPUT); // D segment
+
+pinMode(9, OUTPUT); // E segment
+
+pinMode(8, OUTPUT); // F segment
+
+pinMode(7, OUTPUT); // G segment
+
+pinMode(6, OUTPUT); // H segment
+
+}
+
+void loop()
+
+{
+
+digitalWrite(13, HIGH);
+
+digitalWrite(12, LOW);
+
+digitalWrite(11, LOW);
+
+digitalWrite(10, LOW);
+
+digitalWrite(9, HIGH);
+
+digitalWrite(8, HIGH);
+
+digitalWrite(7, HIGH);
+
+digitalWrite(6, LOW);
+
+delay(5000);
+
+}
 
 ## CIRCUIT DIAGRAM:
+![WhatsApp Image 2023-06-20 at 15 01 40](https://github.com/21005291/Interfacing-Seven-Segment-Display/assets/112933167/869cd6c4-29c9-47e9-b30b-9d50eb10cde7)
+
 
 ## OUTPUT:
+![WhatsApp Image 2023-06-20 at 15 01 49](https://github.com/21005291/Interfacing-Seven-Segment-Display/assets/112933167/45169d39-3d28-4e5b-93b9-c0b8362b34a7)
+
 
 ## RESULT:
 Thus the characters and numbers are displayed in the seven segment display using Arduino UNO controller
